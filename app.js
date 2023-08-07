@@ -60,7 +60,7 @@ mongoose
     "mongodb+srv://alrawilath:ASDfg12345678@cluster0.z6g42nd.mongodb.net/alldata?retryWrites=true&w=majority"
   )
   .then((result) => {
-    app.listen(process.env.PORT  || 5000, () => {
+    app.listen(process.env.PORT  || 10000, () => {
       console.log("Example app listening at http://localhost:5000");
     });
   })
