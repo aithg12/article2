@@ -41,7 +41,7 @@ mongoose.connect("mongodb+srv://alrawilath:ASDfg12345678@cluster0.z6g42nd.mongod
 
   })
 
- app.set('views', path.join(__dirname, 'views'))
+app.set('views', './views') 
 
 app.get('/'  , function(req , res){
 res.render('call')
