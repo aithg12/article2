@@ -352,6 +352,17 @@ var sum = 0
   
 create.onclick = function(){
    
+  for(var u = 0;u<arrnum.length;u++ ){
+    arrnum[u].setAttribute("name",arrtext[u].value)
+   
+    if(arrnum[u].value == ''){
+      check.push(u)
+    }else if(arrtext[u].value ==''){
+check.push(u)
+    }
+ 
+  
+  }
 
 
 
